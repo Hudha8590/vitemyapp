@@ -1,5 +1,6 @@
 import Usestate from "./useStatetask"
 import Usestatestring from "./usestatestring"
+import Count from "./propstate"
 function App() {
 
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <Usestate/>
     <Usestatestring/>
+    <Count initialValue={5}/>
     </>
   );
 }
