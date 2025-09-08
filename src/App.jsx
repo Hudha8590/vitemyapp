@@ -10,6 +10,9 @@ import Logical from "./conrenlogicalAND";
 import Switch from "./condrenswitch";
 import List from "./list";
 import StudentDetails from "./listkey";
+import Button from "./onclick";
+import Counted from "./onclickusestate";
+import MyComponent from "./onChange"
 function App() {
   return (
     <>
@@ -35,7 +38,9 @@ function App() {
      <Switch status="unknown"/>
      <List/>
      <StudentDetails/>
-
+     <Button/>
+     <Counted/>
+    <MyComponent/>
     </>
   );
 }
