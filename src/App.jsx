@@ -9,6 +9,7 @@ import Loggin from "./conrenternayopre"
 import Logical from "./conrenlogicalAND";
 import Switch from "./condrenswitch";
 import List from "./list";
+import StudentDetails from "./listkey";
 function App() {
   return (
     <>
@@ -33,6 +34,8 @@ function App() {
      <Switch status="error"/>
      <Switch status="unknown"/>
      <List/>
+     <StudentDetails/>
+
     </>
   );
 }
