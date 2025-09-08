@@ -13,6 +13,7 @@ import StudentDetails from "./listkey";
 import Button from "./onclick";
 import Counted from "./onclickusestate";
 import MyComponent from "./onChange"
+import Selection from "./taskonchange";
 function App() {
   return (
     <>
@@ -41,6 +42,7 @@ function App() {
      <Button/>
      <Counted/>
     <MyComponent/>
+    <Selection/>
     </>
   );
 }

@@ -21,7 +21,7 @@ function MyComponent(){
         setShipping(event.target.value)
     }
     return (<div>
-        <input vale={name} onChange={handleNameChange} />
+        <input value={name} onChange={handleNameChange} />
         <p>Name:{name}</p>
         <input value={quantity} onChange={handleQuantityChange} type="number"/>
         <p>Quantity:{quantity}</p>
