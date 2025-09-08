@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 function Togglemssg({messages}){
-   const [mssg,setMssg]=useState(false)
+   const [mssg,setMssg]=useState(true)
    return(
     <div>
     <button onClick={()=>setMssg(!mssg)}>{mssg?"hide":"show"}</button>
