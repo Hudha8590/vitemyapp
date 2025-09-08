@@ -6,9 +6,10 @@ import Temperature from "./tasktemp";
 import Student from "./studentprops";
 import UserGreeting from "./conditional rendering"
 import Loggin from "./conrenternayopre"
+import Logical from "./conrenlogicalAND";
+import Switch from "./condrenswitch";
+import List from "./list";
 function App() {
-
-
   return (
     <>
     <Usestate/>
@@ -25,6 +26,13 @@ function App() {
     <Loggin isLoggedin={true} userName="Mehshan"/>
     <Loggin isLoggedin={false}/>
     <Loggin/>
+    <Logical hasMessage={false}/>
+    <Logical hasMessage={true}/>
+    <Switch status="Loading..."/>
+     <Switch stutus="success"/>
+     <Switch status="error"/>
+     <Switch status="unknown"/>
+     <List/>
     </>
   );
 }
