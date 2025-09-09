@@ -14,6 +14,8 @@ import Button from "./onclick";
 import Counted from "./onclickusestate";
 import MyComponent from "./onChange"
 import Selection from "./taskonchange";
+import MultipleEvent from "./multievents";
+import MyEffect from "./useEffect";
 function App() {
   return (
     <>
@@ -43,6 +45,8 @@ function App() {
      <Counted/>
     <MyComponent/>
     <Selection/>
+    <MultipleEvent/>
+     <MyEffect initialValue={0}/>
     </>
   );
 }
