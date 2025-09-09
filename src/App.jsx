@@ -16,6 +16,7 @@ import MyComponent from "./onChange"
 import Selection from "./taskonchange";
 import MultipleEvent from "./multievents";
 import MyEffect from "./useEffect";
+import MyReference from "./useRef";
 function App() {
   return (
     <>
@@ -47,6 +48,8 @@ function App() {
     <Selection/>
     <MultipleEvent/>
      <MyEffect initialValue={0}/>
+     <br></br>
+     <MyReference/>
     </>
   );
 }
