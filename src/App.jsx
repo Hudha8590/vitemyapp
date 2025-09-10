@@ -17,6 +17,7 @@ import Selection from "./taskonchange";
 import MultipleEvent from "./multievents";
 import MyEffect from "./useEffect";
 import MyReference from "./useRef";
+import Previous from "./previousState";
 function App() {
   return (
     <>
@@ -50,6 +51,7 @@ function App() {
      <MyEffect initialValue={0}/>
      <br></br>
      <MyReference/>
+     <Previous InitialValue={0}/>
     </>
   );
 }

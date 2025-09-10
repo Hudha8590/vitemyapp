@@ -6,25 +6,23 @@ function MyReference(){
     // }
     
     //USING useRef:
-    //const ref=useRef(0);
-
-    //initial value is null:
-    const inpRef=useRef(null);
-    
-    
+    const ref=useRef(0);
     function Num(){
         ref.current++;
         console.log(ref.current)
     }
+     //initial value is null:
+    const inpRef=useRef(null);
     useEffect(()=>{
         console.log("comment rendering");
-        console.log(inpRef);
-        
-        
+           
     })
+    function handleClick(){
+        console.log(inpRef.current.focus())}//.focus() is a build in method
     
     return (<>
        <button onClick={Num}>Click me!</button> 
+       <button onClick={handleClick}>onClick</button>
        <input ref={inpRef} />
     </>
     
